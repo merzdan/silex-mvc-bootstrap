@@ -1,4 +1,4 @@
-# sliex-mvc-bootstrap
+# silex-mvc-bootstrap
 Silex with MVC, twig and Bootstrap
 
 install: composer install
