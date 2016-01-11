@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Гостевая книга</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</head>
+<body">
+<div class="wrap">
+    <nav id="w0" class="navbar-inverse navbar-fixed-top navbar" role="navigation"><div class="container"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w0-collapse"><span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span></button><a class="navbar-brand" href="/silex/public/">danmerz | Гостевая книга</a></div><div id="w0-collapse" class="collapse navbar-collapse"><ul id="w1" class="navbar-nav navbar-right nav"><li class="active"><a href="/silex/public/">Главная</a></li>
+<li><a href="/silex/public/addreview">Оставить отзыв</a></li>
+</ul></div></div></nav>
+    <div class="container">
+             <div class="body-content col-xs-12 col-sm-6 col-md-8"> 
+			
+{% block content %}
+
+{% endblock %}
+
+</div>
+</div>
+
+</body>
+</html>

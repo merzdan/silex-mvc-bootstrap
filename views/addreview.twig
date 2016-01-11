@@ -1,0 +1,32 @@
+{% extends "layout.twig" %} {% block content %}
+
+    <div class="row">
+	   {%  if message == 1 %}
+	   <div class="alert alert-danger">Поля не должны быть пустыми и не должны содержать html-теги</div>
+	   {% endif %}
+	   {% if message == 2 %}
+	   <div class="alert alert-success">Спасибо за отзыв!</div>
+	   {% else %}
+	   <div class="panel panel-default">
+          <div class="panel-body">
+           <form form class="form-horizontal-addreview" role="form" method="post">
+                     <div class="form-group">
+                         <label class="control-label" for="form-autor">Ваше имя:</label>
+                         <input type="text" id="form-autor" class="form-control" name="autor">
+                    </div>
+                    <div class="form-group">
+                          <label class="control-label" for="form-text">Ваш отзыв:</label>
+                           <textarea id="form-text" class="form-control" name="text" rows="6"></textarea>
+                           <p class="help-block help-block-error"></p>
+                    </div>
+					  
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary" name="contact-button">Отправить</button>                    
+				    </div>
+             </form>
+			 </div>
+			</div>
+		 {% endif %}
+    </div>
+
+{% endblock %}

@@ -1,0 +1,22 @@
+
+html {
+    font-size: 14px;
+}
+
+body .body-content {
+	padding-top: 60px;
+    float: none;
+    margin: 0 auto
+}
+
+.panel-button {
+    padding: 15px;
+}
+
+.panel-button span {
+	font-size: 14px;
+}
+
+.form-horizontal-addreview {
+  padding: 15px;	
+}
