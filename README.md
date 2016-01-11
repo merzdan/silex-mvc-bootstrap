@@ -1,5 +1,9 @@
 # sliex-mvc-bootstrap
-Silex with MVC and Bootstrap
+Silex with MVC, twig and Bootstrap
+
+install: composer install
+
+-------------------------------------
 
 Демо приложение на базе фреймворка Silex с структурой MVC, шаблонизатором twig и bootstrap
 
